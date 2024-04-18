@@ -16,8 +16,6 @@
 class SolarSystem
 {
 public:
-	//SolarSystem() {};
-
 	void go();
 
 

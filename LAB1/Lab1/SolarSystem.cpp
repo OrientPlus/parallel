@@ -6,7 +6,6 @@ void SolarSystem::go()
 {
     initPlanet();
 
-	// Создание окна размером 800x800
     window = new sf::RenderWindow(sf::VideoMode(WINDOW_SIZE_X, WINDOW_SIZE_Y), "Solar system");
     
     while (window->isOpen())
